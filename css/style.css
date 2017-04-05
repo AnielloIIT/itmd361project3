@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*************************************************/
+/* end http://meyerweb.com/eric/tools/css/reset/ */
+/*************************************************/
+
+/*start of my css style*/
+
+html {
+	background-color: white;
+	font-family: 'Roboto', sans-serif, acme;
+	font-size: 1em;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background-color: #CCC;
+}
+
+
+body{
+	font-family: 'Roboto', sans-serif, acme;
+	font-size: 1em;
+	text-align: center;
+}
+
+main{
+	
+	width: 1em;
+	height: 12.5em;
+	background: #595959;
+	float: left; 
+	
+	
+}
+
+
+nav#horz {
+	background-color: #808080;
+}
+
+nav#horz ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav#horz ul li {
+	padding: 0;
+	float: left;
+	list-style-type: none;
+	border-bottom: 1em solid black;
+		
+}
+
+nav#horz ul li a {
+	display: block;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif, acme;
+}
+
+nav#horz ul li a:hover {
+	background-color: white;
+	color: #000;
+}
+
+h1{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+h2{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 1em;
+}
+
+h3{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 1em;
+
+}
+
+p {
+	font-family: 'Roboto', sans-serif, acme;
+    font-size: 1em;
+	margin: 1em;
+}
+
+ul > li {
+	
+	list-style-type: none;
+	list-style-position: inside;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	list-style-position: outside;
+}
+
+/* Android Webpage CSS */
+
+#android-header {
+	background-color: #808080;
+		
+}
+
+#content {
+	margin: 0;
+	position: relative;
+	background-color: 	#00BFFF;
+}
+
+
+
+#wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #CCC;
+}
+
+#header {
+	background-color: #CCC; 
+	padding: 15px;
+	text-align: center;
+	}
+	
+
+#column1 {
+	float: left;
+	width: 22.5%;
+	margin: 0 0 0 2.5%;
+}
+#main {
+	float: left;
+	width: 45%;
+	margin: 0 2.5%;
+	padding-bottom: 2em;
+	background-color: white;
+	
+	 }
+	 
+#column2 {
+	float: left;
+	width: 22.5%;
+	margin: 0 2.5% 0 0;
+}
+
+/* This is the start of the resume page css*/
+#column-main{
+	float: left;
+	width: 30%;
+	background-color: white;
+}
+
+#main-page-content{
+	float: left;
+	width: 70%;
+}
+
+
+#footer {
+	clear: left; /* starts the footer below the floated content above */
+	background-color: #808080;
+}
+
+
+
+
