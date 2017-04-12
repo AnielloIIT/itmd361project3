@@ -87,18 +87,18 @@ nav#horz ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  border-bottom: 1em solid black;
 }
 
 nav#horz ul li {
-  padding: 0;
-  float: left;
+  display: inline-block;
+  vertical-align: top;
   list-style-type: none;
-  border-bottom: 1em solid black;
 		
 }
 
 nav#horz ul li a {
-  display: block;
+  display: inline-block;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
